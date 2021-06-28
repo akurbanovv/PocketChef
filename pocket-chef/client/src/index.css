@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+    height: 70px;
+}
+
+.title h3 {
+    padding-top: 20px;
+}
+
+.recipe_description {
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.ingredient_item {
+    margin-left: 30px
+}
+
+.inginst {
+    margin-top: 20px
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.img_search {
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+    object-fit: contain;
+    display: block
+}
+
+.search_div {
+    height: 300px;
+    background-color: orange;
+}
+
+
+.search_form {
+    transform: translate(75%, 0);
+    padding-top: 10%;
+    width: 40%;
+}
+
+.filter_info {
+    top: 100%;
+    height: 400px;
+    background-color: lightyellow;
+}
+
+.filter_layout {
+    margin-left: 15px;
+}
+
+.bookmark_button {
+    float: right;
+    padding-top: 10px;
+    color: orange;
+}
+
+
+.image {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 150px;
+    padding: 2%;
+    object-fit: cover;
+}
+
+.article .article-header .article-heading {
+    color: black;
+    margin: 53px auto 0;
+    padding: 0 2em 2.857142857142857em;
+    width: 100%;
+    max-width: 760px;
+    box-sizing: border-box;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-top: 5rem;
+
+}
+
+.article-header h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.article-auth {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.article .featured-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 927px;
+    margin: 0 auto 3em;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.article .container {
+    display: flex;
+    max-width: 927px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.featured-article {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    display: block;
+    position: relative;
+    margin-bottom: 48px;
+    border-radius: 4px;
+
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 1em;
+    vertical-align: baseline;
+}
+
+.featured-article-lists {
+    display: flex;
+    margin-left: 28px;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 40px;
+}
+
+/*section {*/
+/*  outline: 1px solid #66b8da!important;*/
+/*}*/
+.featured-article-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.small-featured-articles .small-featured-article {
+    display: flex;
+    margin-bottom: 34px;
+    flex: 1;
+}
+
+.small-featured-articles .small-featured-article .article-image {
+    width: 104px;
+    height: 104px;
+    border-radius: 4px;
+    flex-basis: 104px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.small-featured-articles {
+    max-width: 44%;
+    margin: auto;
+}
+
+.small-featured-articles .small-featured-article .small-article-blurb {
+    padding-left: 38px;
+    padding-right: 16px;
+}
+
+.article-title {
+    color: #232323;
+    margin-bottom: 10px;
+    transition: color 400ms ease;
+}
+
+.bottom-justified {
+    bottom: 0;
+    right: 0;
+    width: 91%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.article-blurb {
+    position: absolute;
+    background-color: #fff;
+    padding: 48px 61px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 460px;
+}
+
+.article-home, .recent-featured-article {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.left-justified {
+    left: 0;
+    width: 44%;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 425px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.right-justified {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 44%;
+    max-height: 425px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 18px;
+    margin-top: -65px;
+}
+
+h2 {
+
+    font-size: 2rem;
+}
+
+.App {
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-article-image, .article-blurb {
+        position: static;
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .article-blurb {
+        width: calc(100% - 64px);
+        margin-left: 32px;
+        height: auto;
+        transform: translateY(-40%);
+        padding: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .right-justified, .left-justified {
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .article-blurb {
+        width: calc(100% - 64px);
+        margin-left: 32px;
+        height: auto;
+        transform: translateY(-40%);
+        padding: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-article.hidden-description {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-article {
+        padding-bottom: 0;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-article-lists {
+        display: block;
+        transform: translateY(-5%);
+        margin-left: 0;
+    }
+}
+
+
